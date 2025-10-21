@@ -959,7 +959,7 @@ ul {
   color: #2e2f42;
 }
 .input-with-icon:focus-within .input-with-icon__icon {
-  fill: #4d5ae5;
+  color: #4d5ae5;
   /* veya istediğiniz mavi tonu */
 }
 .form-textarea {
