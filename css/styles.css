@@ -712,6 +712,7 @@ ol {
 
 .footer-container {
   display: flex;
+  width: 1280px;
   gap: 40px;
   padding: 60px 156px; /* üst/alt daha makul */
   align-items: center; /* burada dikey hizalama sağlanır */
@@ -719,7 +720,7 @@ ol {
   box-sizing: border-box;
 }
 
-.footer-about {
+.footer-about {  
   width: 264px;
 }
 .footer-form {
@@ -839,7 +840,7 @@ ul {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 998;
 }
 
@@ -957,6 +958,10 @@ ul {
   fill: currentColor;
   color: #2e2f42;
 }
+.input-with-icon:focus-within .input-with-icon__icon {
+  fill: #4d5ae5;
+  /* veya istediğiniz mavi tonu */
+}
 .form-textarea {
   width: 100%;
   border: 1px solid #2e2f4266;
@@ -1034,4 +1039,12 @@ ul {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+}
+
+.modal__close:hover {
+  background-color: #4D5AE5;
+  /* veya istediğiniz mavi tonu */
+  }
+.footer-label {
+  color:#fff;
 }
